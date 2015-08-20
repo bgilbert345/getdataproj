@@ -1,0 +1,12 @@
+Subjects were numbered 1 through 30 and performed six different activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, and LAYING.
+Each row corresponds to a single subject performing a single activity, as identified by the first two columns of the table.
+The other 66 columns represent the average of, respectively, the mean and standard deviation of various measures of the subject's motion throughout the collection of data.
+Mean values are labeled with the tag "mean()" and standard deviation values are labeled with the tag "std()".
+Time frequency domain signals begin with "t", and frequency domain signals begin with "f".
+Measurements of motion in the X, Y, and Z axes are labeled respectively with (capital) X, Y, and Z.
+The label "Mag" indicates a Euclidean norm, the square root of the sum of squares over each axis.
+Body acceleration is labeled BodyAcc and gravity acceleration is labeled GravityAcc. Measured in g, the magnitude of acceleration due to gravity, normalized between -1 and 1
+The acceleration measurements were derived in time to obtain jerk signals; these are labeled with "Jerk". Measured in g/second, normalized between -1 and 1.
+"Gyro" labels a measurement of angular, rather than linear, acceleration. Measured in radians/second, normalized between -1 and 1.
+
+EXAMPLE: "fBodyAcc-mean()-X" - in the frequency domain, the mean of the body acceleration in the X direction
